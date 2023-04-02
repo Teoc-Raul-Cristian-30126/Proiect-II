@@ -275,6 +275,11 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\1.jpg" />
+    <Content Include="Images\2.jpg" />
+    <Content Include="Images\3.jpg" />
+    <Content Include="Images\4.jpg" />
+    <Content Include="Images\5.jpg" />
     <Content Include="Images\Dragomir.PNG" />
     <Content Include="Images\facebook.png" />
     <Content Include="Images\facebook_icon-icons.com_59205.png" />

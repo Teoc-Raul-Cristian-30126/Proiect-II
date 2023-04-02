@@ -13,5 +13,12 @@ namespace Magazin
         {
 
         }
+
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+            Random random = new Random();
+            int i = random.Next(1, 4);
+            Image2.ImageUrl = "~/Images/" + i.ToString() + ".jpg";
+        }
     }
 }
