@@ -33,7 +33,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">
+                    <td class="auto-style2" align="center">
                         <b>First Name:</b>
                     </td>
                     <td class="auto-style1">
@@ -42,7 +42,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">
+                    <td class="auto-style2" align="center">
                         <b>Last Name:</b>
                     </td>
                     <td class="auto-style1">
@@ -51,7 +51,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">
+                    <td class="auto-style2" align="center">
                         <b>Email:</b>
                     </td>
                     <td class="auto-style1">
@@ -60,7 +60,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">
+                    <td class="auto-style2" align="center">
                         <b>Gender:</b>
                     </td>
                     <td class="auto-style1">
@@ -73,7 +73,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">
+                    <td class="auto-style3" align="center">
                         <b>Address:</b>
                     </td>
                     <td class="auto-style4">
@@ -82,7 +82,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">
+                    <td class="auto-style2" align="center">
                         <b>Phone Number:</b>
                     </td>
                     <td class="auto-style1">
@@ -92,7 +92,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">
+                    <td class="auto-style2" align="center">
                         <b>Password:</b>
                     </td>
                     <td class="auto-style1">
@@ -101,7 +101,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">
+                    <td class="auto-style2" align="center">
                         <b>Confirm Password:</b>
                     </td>
                     <td class="auto-style1">
@@ -117,7 +117,7 @@
                 </tr>
                 <tr>
                     <td colspan="2" align="center">
-                        <asp:Button ID="Button1" runat="server" Text="Register" Font-Bold="True" Font-Size="Larger" Height="36px" Width="157px" OnClick="Button1_Click" />
+                        <asp:Button ID="registerButton" runat="server" Text="Register" Font-Bold="True" Font-Size="Larger" Height="36px" Width="157px" OnClick="Button1_Click" />
                     </td>
                 </tr>
                 <tr>
