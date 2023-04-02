@@ -33,7 +33,7 @@
                         <asp:Label ID="Label2" runat="server" Font-Bold="True"></asp:Label>
                     </td>
                 </tr>
-                <tr>
+                <tr style=" width:100px; height:40px; background-color:royalblue">
                     <td colspan="3">
                         <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" StaticSubMenuIndent="19px">
                             <Items>
