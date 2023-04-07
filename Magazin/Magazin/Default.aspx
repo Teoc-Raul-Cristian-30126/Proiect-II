@@ -2,8 +2,18 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <table>
-
+    <table style="width:1100px; height:30px">
+        <tr style="background-color:royalblue">
+            <td colspan="2" style="text-align:right">
+                <asp:Label ID="Label4" runat="server" Font-Bold="True" Font-Italic="True" Font-Names="Bahnschrift" style="text-align:left"></asp:Label>
+                <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Names="Arial" NavigateUrl="~/Login.aspx">Click To Login</asp:HyperLink>
+                <asp:Button ID="Button1" runat="server" Text="Log Out" BackColor="#CC0000" BorderColor="White" Font-Bold="True" Font-Names="Calibri" ForeColor="Aqua" Height="30px" Width="100px" OnClick="Button1_Click" />
+            </td>
+            <td style="text-align:right">
+                <asp:TextBox ID="TextBox1" runat="server" Height="20px" Width="170px"></asp:TextBox>
+                <asp:ImageButton ID="ImageButton2" runat="server" Height="20px" ImageUrl="~/Images/search.png" Width="20px" OnClick="ImageButton2_Click" />
+            </td>
+        </tr>
     </table>
     <asp:DataList ID="DataList1" runat="server" DataKeyField="ProductId" DataSourceID="SqlDataSource1" Height="290px" Width="310px" RepeatColumns="3" RepeatDirection="Horizontal" align="center" >
         <ItemTemplate>

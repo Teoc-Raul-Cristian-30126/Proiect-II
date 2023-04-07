@@ -19,15 +19,19 @@ namespace Magazin
         protected void Button1_Click(object sender, EventArgs e)
         {
             SqlConnection myCon = new SqlConnection();
+
             myCon.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True";
 
             SqlDataAdapter sqlData = new SqlDataAdapter("SELECT * FROM UserAcc where Email='" + emailText.Text + "' AND Password='" + passwordText.Text + "'", myCon);
             DataTable dataTable = new DataTable();
+
             sqlData.Fill(dataTable);
 
             if (dataTable.Rows.Count == 1)
             {
-                Label1.Text = "Login Succesful!";
+                Session["username"] = emailText.Text;
+                Response.Redirect("Default.aspx");
+                //Label1.Text = "Login Succesful!";
             }
             else
             {
