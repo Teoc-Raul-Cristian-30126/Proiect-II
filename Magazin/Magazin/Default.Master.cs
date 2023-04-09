@@ -20,5 +20,10 @@ namespace Magazin
             int i = random.Next(1, 5);
             Image2.ImageUrl = "~/Images/" + i.ToString() + ".jpg";
         }
+
+        protected void ImageButton4_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("AddToCart.aspx");
+        }
     }
 }

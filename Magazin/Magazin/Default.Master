@@ -29,7 +29,7 @@
                         <asp:ImageButton ID="ImageButton1" runat="server" Height="50px" ImageUrl="~/Images/facebook_icon-icons.com_59205.png" Width="50px" />
                         <asp:ImageButton ID="ImageButton2" runat="server" Height="50px" ImageUrl="~/Images/twitter.png" Width="50px" />
                         <asp:ImageButton ID="ImageButton3" runat="server" Height="50px" ImageUrl="~/Images/instagram.png" Width="50px" />
-                        <asp:ImageButton ID="ImageButton4" runat="server" Height="50px" ImageUrl="~/Images/shop_cart.png" Width="50px" CausesValidation="False" />
+                        <asp:ImageButton ID="ImageButton4" runat="server" Height="50px" ImageUrl="~/Images/shop_cart.png" Width="50px" CausesValidation="False" OnClick="ImageButton4_Click" />
                         <asp:Label ID="Label2" runat="server" Font-Bold="True"></asp:Label>
                     </td>
                 </tr>

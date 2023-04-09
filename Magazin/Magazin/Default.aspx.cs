@@ -13,6 +13,8 @@ namespace Magazin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Session["addproduct"] = "false";
+
             if (Session["username"] != null)
             {
                 Label4.Text = "Logged in as " + Session["username"].ToString();
@@ -45,6 +47,16 @@ namespace Magazin
             DataList1.DataSourceID = null;
             DataList1.DataSource = dataTable;
             DataList1.DataBind();
+        }
+
+        protected void DataList1_ItemCommand(object source, DataListCommandEventArgs e)
+        {
+            Session["addproduct"] = "true";
+            if (e.CommandName == "AddToCart")
+            {
+                DropDownList list = (DropDownList)(e.Item.FindControl("DropDownList1"));
+                Response.Redirect("AddToCart.aspx?id=" + e.CommandArgument.ToString() + "&quantity=" + list.SelectedItem.ToString());
+            }
         }
     }
 }
