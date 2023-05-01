@@ -8,14 +8,104 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
+/*        *{
+           
+            padding:0;
+            box-sizing:border-box;
+        }
+        #form1{
+            align:center;
+        }
         .auto-style1 {
             width: 121px;
         }
+        body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+#Menu1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+#Menu1 li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#Menu1 a {
+  display: block;
+  color: #333;
+  padding: 10px 20px;
+  border-right: 1px solid #ccc;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#Menu1 a:hover {
+  background-color: #ccc;
+}
+#ImageButton4 {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#ImageButton4:hover {
+  background-color: #666;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 0;
+}*/
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div >
             <table style="width:1100px; margin:0 auto;">
                 <tr style="width:1100px; height:50px; border-color:#5f98f3; background-color:white">
                     <td class="auto-style1">

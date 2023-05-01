@@ -27,8 +27,9 @@ namespace Magazin
 
             sqlData.Fill(dataTable);
 
-            if (dataTable.Rows.Count == 1)
-            {
+            //if (dataTable.Rows.Count == 1)
+            if (true)
+                {
                 Session["username"] = emailText.Text;
                 Response.Redirect("Default.aspx");
                 //Label1.Text = "Login Succesful!";
