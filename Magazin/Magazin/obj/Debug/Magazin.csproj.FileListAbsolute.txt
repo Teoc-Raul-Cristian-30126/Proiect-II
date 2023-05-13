@@ -230,3 +230,6 @@ C:\Users\TeocRaul\Desktop\Sample\Proiect-II\Magazin\Magazin\obj\Debug\Magazin.cs
 C:\Users\TeocRaul\Desktop\Sample\Proiect-II\Magazin\Magazin\obj\Debug\Magazin.csproj.CopyComplete
 C:\Users\TeocRaul\Desktop\Sample\Proiect-II\Magazin\Magazin\obj\Debug\Magazin.dll
 C:\Users\TeocRaul\Desktop\Sample\Proiect-II\Magazin\Magazin\obj\Debug\Magazin.pdb
+C:\Users\TeocRaul\Desktop\Sample\Proiect-II\Magazin\Magazin\bin\itextsharp.dll
+C:\Users\TeocRaul\Desktop\Sample\Proiect-II\Magazin\Magazin\bin\BouncyCastle.Crypto.dll
+C:\Users\TeocRaul\Desktop\Sample\Proiect-II\Magazin\Magazin\bin\itextsharp.xml

@@ -139,7 +139,7 @@ namespace Magazin
 
             while (i < nrow)
             {
-                totalprice = totalprice + Convert.ToInt32(dataTable.Rows[i]["pprice"].ToString());
+                totalprice = totalprice + Convert.ToInt32(dataTable.Rows[i]["ptotalprice"].ToString());
                 i = i + 1;
             }
 
