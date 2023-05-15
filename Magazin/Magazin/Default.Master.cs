@@ -25,5 +25,20 @@ namespace Magazin
         {
             Response.Redirect("AddToCart.aspx");
         }
+
+        protected void ImageButton3_Click(object sender, ImageClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://instagram.com/anrosa_?igshid=MzRlODBiNWFlZA==");
+        }
+
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://m.facebook.com/anrosastore/");
+        }
+
+        protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://twitter.com/adidasoriginals?lang=en");
+        }
     }
 }
