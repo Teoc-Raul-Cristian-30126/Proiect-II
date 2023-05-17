@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
 </head>
-<body>
+  <body style="background-image: url('Images/login_bg.jpg'); background-repeat: no-repeat; background-position: center top; background-size: cover;">
     <form id="form1" runat="server">
         <div align="center" style="margin:0 auto">
             <h2 style="text-decoration: underline overline blink; color:royalblue">You have the following products in your cart</h2>
@@ -46,7 +46,7 @@
             </asp:GridView>
 
             <br />
-            <asp:Button ID="Button1" runat="server" Text="Button" BorderStyle="Ridge" Font-Bold="True" Font-Size="Large" OnClick="Button1_Click" />
+            <asp:Button ID="Button1" runat="server" Text="Buy" BorderStyle="Ridge" Font-Bold="True" Font-Size="Large" OnClick="Button1_Click" />
         </div>
     </form>
 </body>

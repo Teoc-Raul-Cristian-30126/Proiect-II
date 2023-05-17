@@ -13,7 +13,7 @@
         }
     </style>
 </head>
-<body>
+    <body style="background-image: url('Images/login_bg.jpg'); background-repeat: no-repeat; background-position: center top; background-size: cover;">
     <form id="form1" runat="server">
         <div>
             <table style="width:1100px; margin:0 auto;">
