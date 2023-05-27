@@ -38,14 +38,13 @@
                         <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" StaticSubMenuIndent="19px">
                             <Items>
                                 <asp:MenuItem Text="Home" Value="Home"></asp:MenuItem>
-                                <asp:MenuItem Text="All Products" Value="All Products"></asp:MenuItem>
-                                <asp:MenuItem Text="Register" Value="Register"></asp:MenuItem>
-                                <asp:MenuItem Text="Login" Value="Login"></asp:MenuItem>
-                                <asp:MenuItem Text="About Us" Value="About Us"></asp:MenuItem>
-                                <asp:MenuItem Text="Contact Us" Value="Contact Us"></asp:MenuItem>
+                                <asp:MenuItem Text="Cart" Value="Cart" NavigateUrl="AddToCart.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Register" Value="Register" NavigateUrl="Register.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Login" Value="Login" NavigateUrl="Login.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Contact Us" Value="Contact Us" NavigateUrl="ContactUs.aspx"></asp:MenuItem>
                             </Items>
-                            <StaticHoverStyle BackColor="#CC0000" BorderColor="#CC0000" BorderStyle="Outset" ForeColor="White" Height="40px" />
-                            <StaticMenuItemStyle Font-Bold="True" Font-Size="Large" ForeColor="Black" HorizontalPadding="50px" />
+                            <%--<StaticHoverStyle BackColor="#CC0000" BorderColor="#CC0000" BorderStyle="Outset" ForeColor="White" Height="40px" />--%>
+                            <StaticMenuItemStyle Font-Bold="True" Font-Size="Large" ForeColor="Black" HorizontalPadding="75px" />
                             <StaticSelectedStyle BackColor="#CC0000" BorderColor="#CC6600" BorderStyle="Inset" ForeColor="#999999" Height="40px" />
                         </asp:Menu>
                     </td>
