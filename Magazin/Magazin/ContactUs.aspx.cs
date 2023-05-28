@@ -25,8 +25,8 @@ namespace Magazin
 
             // Exemplu de trimitere  a unui email
             MailMessage mail = new MailMessage();
-            mail.From = new MailAddress("pustaibogdan16@gmail.com"); // Adresa ta de email
-            mail.To.Add(emailValue); // Adresa introdusă în câmpul de email
+            mail.From = new MailAddress(emailValue); // Adresa ta de email
+            mail.To.Add("pustaibogdan16@gmail.com"); // Adresa introdusă în câmpul de email
             mail.Subject = "New Contact Us Message";
             mail.Body = $"Name: {nameValue}<br />Email: {emailValue}<br />Message: {messageValue}";
             mail.IsBodyHtml = true;
