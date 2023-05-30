@@ -6,7 +6,8 @@
 <head runat="server">
     <title></title>
     </head>
-<body>
+  <body style="background-image: url('Images/login_bg.jpg'); background-repeat: no-repeat; background-position: center top; background-size: cover;">
+
     <form id="form1" runat="server">
         <div>
             <table align="center" style="margin-top:50px; width:531px; height:563px;" bgcolor="DarkCyan">
